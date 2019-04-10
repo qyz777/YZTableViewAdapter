@@ -14,6 +14,11 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7467CB0D99D4CD9D6459A8BB /* Pods_YZTableViewAdapter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6278EE17F4C251735416313C /* Pods_YZTableViewAdapter_Example.framework */; };
+		A07D5459225DEEC8009944EF /* FirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D5458225DEEC8009944EF /* FirstCell.swift */; };
+		A07D545B225DEED7009944EF /* FirstCellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D545A225DEED7009944EF /* FirstCellProvider.swift */; };
+		A07D545D225DF1FD009944EF /* SecondCellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D545C225DF1FD009944EF /* SecondCellProvider.swift */; };
+		A07D545F225DF221009944EF /* SecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D545E225DF221009944EF /* SecondCell.swift */; };
+		A07D5461225DF31C009944EF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D5460225DF31C009944EF /* SecondViewController.swift */; };
 		DE88D3EA9BDB0E763947B731 /* Pods_YZTableViewAdapter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B833145A6F14FD0EAE3C87 /* Pods_YZTableViewAdapter_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,11 +46,16 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6278EE17F4C251735416313C /* Pods_YZTableViewAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZTableViewAdapter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B833145A6F14FD0EAE3C87 /* Pods_YZTableViewAdapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZTableViewAdapter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C0AB5A76479397272C06DFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6C0AB5A76479397272C06DFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		80EF244CB0605ABEFC9B814C /* Pods-YZTableViewAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZTableViewAdapter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZTableViewAdapter_Example/Pods-YZTableViewAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8E21AF25E4252CF18F6E2A46 /* Pods-YZTableViewAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZTableViewAdapter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZTableViewAdapter_Example/Pods-YZTableViewAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9898BE789BA3958E9A4600F5 /* YZTableViewAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YZTableViewAdapter.podspec; path = ../YZTableViewAdapter.podspec; sourceTree = "<group>"; };
-		C1A6AD88D224FBB9BF2B7430 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9898BE789BA3958E9A4600F5 /* YZTableViewAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YZTableViewAdapter.podspec; path = ../YZTableViewAdapter.podspec; sourceTree = "<group>"; };
+		A07D5458225DEEC8009944EF /* FirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCell.swift; sourceTree = "<group>"; };
+		A07D545A225DEED7009944EF /* FirstCellProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCellProvider.swift; sourceTree = "<group>"; };
+		A07D545C225DF1FD009944EF /* SecondCellProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCellProvider.swift; sourceTree = "<group>"; };
+		A07D545E225DF221009944EF /* SecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCell.swift; sourceTree = "<group>"; };
+		A07D5460225DF31C009944EF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C1A6AD88D224FBB9BF2B7430 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F8C1DADF9CC4CBE6A299C685 /* Pods-YZTableViewAdapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZTableViewAdapter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZTableViewAdapter_Tests/Pods-YZTableViewAdapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,8 +123,11 @@
 		607FACD21AFB9204008FA782 /* Example for YZTableViewAdapter */ = {
 			isa = PBXGroup;
 			children = (
+				A07D5457225DEEA0009944EF /* CellProvider */,
+				A07D5456225DEE98009944EF /* Cell */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				A07D5460225DF31C009944EF /* SecondViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -157,6 +170,24 @@
 				6C0AB5A76479397272C06DFD /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A07D5456225DEE98009944EF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A07D5458225DEEC8009944EF /* FirstCell.swift */,
+				A07D545E225DF221009944EF /* SecondCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		A07D5457225DEEA0009944EF /* CellProvider */ = {
+			isa = PBXGroup;
+			children = (
+				A07D545A225DEED7009944EF /* FirstCellProvider.swift */,
+				A07D545C225DF1FD009944EF /* SecondCellProvider.swift */,
+			);
+			name = CellProvider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,7 +366,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				A07D545F225DF221009944EF /* SecondCell.swift in Sources */,
+				A07D545B225DEED7009944EF /* FirstCellProvider.swift in Sources */,
+				A07D545D225DF1FD009944EF /* SecondCellProvider.swift in Sources */,
+				A07D5461225DF31C009944EF /* SecondViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				A07D5459225DEEC8009944EF /* FirstCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
