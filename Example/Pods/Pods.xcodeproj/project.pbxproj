@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B88045CE8A3D9A1AD261AEDD3A50E4 /* Pods-YZTableViewAdapter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6921EB47D5EADB0D968AD51BA2E7891 /* Pods-YZTableViewAdapter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E5D1BADFE7595D12C6D82739B945DE6 /* Pods-YZTableViewAdapter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D855B020DDFC23B2911B0843D51F0B2 /* Pods-YZTableViewAdapter_Example-dummy.m */; };
+		374797B12EA875C3FCA111B401B7E390 /* YZTableViewAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F29634EAAED52CC1F25CF2082410151D /* YZTableViewAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		463CA7850A252DEE47AAB0ED43443039 /* BaseProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D40F675488ACEFB98A2D5975DB50E09 /* BaseProxy.swift */; };
+		660A6C04DC08B5C2FE003B42F360E348 /* TableViewDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3F1A60C76805C4EDFF632EA6A2B0 /* TableViewDataSourceProxy.swift */; };
+		71BB1461DA8193D58B7FDA96986EA038 /* Pods-YZTableViewAdapter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC3F124D5D687759EB32F9B2A78DF183 /* Pods-YZTableViewAdapter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79B47EF77D49940880F4745F5E634028 /* TableViewCellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC01AF8DA6843DDAEDE12AE3805639 /* TableViewCellProvider.swift */; };
+		906B59C8AF8B40CB8822D82450C7D29C /* Pods-YZTableViewAdapter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3029A6AF35BA2E10D3A6F0D380AF2F5 /* Pods-YZTableViewAdapter_Tests-dummy.m */; };
+		AD7CABF75A8592507A01142446D19BB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		BD0606EDD9572D777BB0D29314D5992E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		BDF7ED9173153529F2163DEFE18688F2 /* YZTableViewAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5890190F380EC18A589A43AFBDD8D0F0 /* YZTableViewAdapter-dummy.m */; };
+		E23DB79FF36F2BE7E9B1B915F9CC6EE5 /* TableViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD3EC9681E0B9F150C3694A7704553C /* TableViewDelegateProxy.swift */; };
+		E7F558B4248F92C52F4205ECB09AB149 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		E91EDDC37E6512A26CBF892F59435493 /* TableViewCellDataReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F88CCC1DADD89CB42462459319923 /* TableViewCellDataReceiver.swift */; };
+		FDF9BFB3FF105D3CE96125FC890D3429 /* TableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000ED89A4AB3B0B634E91DDFFFD287 /* TableViewAdapter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		461364DC443355CBE30C01920756D206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33137032282E69D3C520D84A86D75F1D;
+			remoteInfo = YZTableViewAdapter;
+		};
+		4C8810EAF8941313C348EC7E44EDAE1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 955329FF06AFCBE0D9B74A28F35F74F8;
+			remoteInfo = "Pods-YZTableViewAdapter_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20F83FF96A7F5A01BFC0119718A5695E /* YZTableViewAdapter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YZTableViewAdapter.xcconfig; sourceTree = "<group>"; };
+		217E8C73509D1482E2EEB424A8077FDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DAC01AF8DA6843DDAEDE12AE3805639 /* TableViewCellProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellProvider.swift; path = YZTableViewAdapter/Classes/TableViewCellProvider.swift; sourceTree = "<group>"; };
+		335B3A58722A3BFB319079F9F090A694 /* Pods-YZTableViewAdapter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YZTableViewAdapter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		50E239CB28B2BFB5A4E352DED987EAAF /* Pods_YZTableViewAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YZTableViewAdapter_Example.framework; path = "Pods-YZTableViewAdapter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		574F3F1A60C76805C4EDFF632EA6A2B0 /* TableViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewDataSourceProxy.swift; path = YZTableViewAdapter/Classes/TableViewDataSourceProxy.swift; sourceTree = "<group>"; };
+		5890190F380EC18A589A43AFBDD8D0F0 /* YZTableViewAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YZTableViewAdapter-dummy.m"; sourceTree = "<group>"; };
+		5D855B020DDFC23B2911B0843D51F0B2 /* Pods-YZTableViewAdapter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YZTableViewAdapter_Example-dummy.m"; sourceTree = "<group>"; };
+		6D40F675488ACEFB98A2D5975DB50E09 /* BaseProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseProxy.swift; path = YZTableViewAdapter/Classes/BaseProxy.swift; sourceTree = "<group>"; };
+		813FA50DB270479166902CFB47D5EE4C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D6EE9318B027132DE18207A68AF7E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		834139D893C814184524CCEFFD8BED3B /* Pods-YZTableViewAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZTableViewAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8FDCAF5799D605FE3673A70436B722F0 /* Pods-YZTableViewAdapter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZTableViewAdapter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95625EF2E082143C70E7BC4489BECE92 /* Pods-YZTableViewAdapter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YZTableViewAdapter_Tests-resources.sh"; sourceTree = "<group>"; };
+		9C727140C3CB5EE4C937223A904182A1 /* YZTableViewAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YZTableViewAdapter.modulemap; sourceTree = "<group>"; };
+		A08F88CCC1DADD89CB42462459319923 /* TableViewCellDataReceiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellDataReceiver.swift; path = YZTableViewAdapter/Classes/TableViewCellDataReceiver.swift; sourceTree = "<group>"; };
+		A73295E8E79FF23B646DC4B267171549 /* YZTableViewAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YZTableViewAdapter-prefix.pch"; sourceTree = "<group>"; };
+		AA000ED89A4AB3B0B634E91DDFFFD287 /* TableViewAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewAdapter.swift; path = YZTableViewAdapter/Classes/TableViewAdapter.swift; sourceTree = "<group>"; };
+		AA2BD1E30C2E8656C3B6B3B28F11588C /* Pods-YZTableViewAdapter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZTableViewAdapter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AE760C95572D1371D647092178AE8514 /* Pods-YZTableViewAdapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZTableViewAdapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6921EB47D5EADB0D968AD51BA2E7891 /* Pods-YZTableViewAdapter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YZTableViewAdapter_Example-umbrella.h"; sourceTree = "<group>"; };
+		B92C66701278FE465CF453475EF437F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3F124D5D687759EB32F9B2A78DF183 /* Pods-YZTableViewAdapter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YZTableViewAdapter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BED4C37529BBBEE2CEEC7AE32F1E4FBC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C076F8429B492E6F015EDB3C5E78E377 /* Pods-YZTableViewAdapter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YZTableViewAdapter_Example.modulemap"; sourceTree = "<group>"; };
+		CCD3EC9681E0B9F150C3694A7704553C /* TableViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewDelegateProxy.swift; path = YZTableViewAdapter/Classes/TableViewDelegateProxy.swift; sourceTree = "<group>"; };
+		CCF61EE784E959ECDD8A3CB88239CF29 /* Pods-YZTableViewAdapter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YZTableViewAdapter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF1B9EC5E955BEE6A9BE8280E8ABBFDF /* Pods-YZTableViewAdapter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YZTableViewAdapter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E3029A6AF35BA2E10D3A6F0D380AF2F5 /* Pods-YZTableViewAdapter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YZTableViewAdapter_Tests-dummy.m"; sourceTree = "<group>"; };
+		E42C823EB683BE2273101967193C3AED /* YZTableViewAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YZTableViewAdapter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E763426FF422EEFF364BE2B52FD4A353 /* Pods-YZTableViewAdapter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YZTableViewAdapter_Example-resources.sh"; sourceTree = "<group>"; };
+		E86C4417CAB9C88FA4167B56DB977331 /* Pods-YZTableViewAdapter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YZTableViewAdapter_Tests.modulemap"; sourceTree = "<group>"; };
+		E8BB33B2D97DDE74E9EB6CA8BBD80BBC /* YZTableViewAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YZTableViewAdapter.framework; path = YZTableViewAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A738B5551FDBF5F8D59B64A46D5BA8 /* Pods_YZTableViewAdapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YZTableViewAdapter_Tests.framework; path = "Pods-YZTableViewAdapter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1A4191F770A35A091687436C090995A /* Pods-YZTableViewAdapter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YZTableViewAdapter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F29634EAAED52CC1F25CF2082410151D /* YZTableViewAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YZTableViewAdapter-umbrella.h"; sourceTree = "<group>"; };
+		F87A93453BE0A7BFA3A4E100F48D9E76 /* Pods-YZTableViewAdapter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZTableViewAdapter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDE3F329DFF1AFDC0F506D50C6E58E82 /* Pods-YZTableViewAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZTableViewAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FE893771CE34CFEA2D8AFBB8DE0893E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F558B4248F92C52F4205ECB09AB149 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9908A147B0118217B17EE9AC6308BE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7CABF75A8592507A01142446D19BB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30340570C6815FDAE39192C1D451F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0606EDD9572D777BB0D29314D5992E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172263B903EF34EC3CD9E7BDDE7180D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50E239CB28B2BFB5A4E352DED987EAAF /* Pods_YZTableViewAdapter_Example.framework */,
+				E9A738B5551FDBF5F8D59B64A46D5BA8 /* Pods_YZTableViewAdapter_Tests.framework */,
+				E8BB33B2D97DDE74E9EB6CA8BBD80BBC /* YZTableViewAdapter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D7C941F7918C89E8F575CE51B67C9B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9E9106263AC672AF1B3A48732657C82 /* Pods-YZTableViewAdapter_Example */,
+				D57B35F4142DCD6ACD20CCD67115B446 /* Pods-YZTableViewAdapter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		32DF3470C1D6E845C0E7FBF7EAE74E3A /* YZTableViewAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				6D40F675488ACEFB98A2D5975DB50E09 /* BaseProxy.swift */,
+				AA000ED89A4AB3B0B634E91DDFFFD287 /* TableViewAdapter.swift */,
+				A08F88CCC1DADD89CB42462459319923 /* TableViewCellDataReceiver.swift */,
+				2DAC01AF8DA6843DDAEDE12AE3805639 /* TableViewCellProvider.swift */,
+				574F3F1A60C76805C4EDFF632EA6A2B0 /* TableViewDataSourceProxy.swift */,
+				CCD3EC9681E0B9F150C3694A7704553C /* TableViewDelegateProxy.swift */,
+				615122905FB90E4D6B022095C99AE0BB /* Pod */,
+				39A2DB32E7F794564ABCF7739156C607 /* Support Files */,
+			);
+			name = YZTableViewAdapter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		39A2DB32E7F794564ABCF7739156C607 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				813FA50DB270479166902CFB47D5EE4C /* Info.plist */,
+				9C727140C3CB5EE4C937223A904182A1 /* YZTableViewAdapter.modulemap */,
+				20F83FF96A7F5A01BFC0119718A5695E /* YZTableViewAdapter.xcconfig */,
+				5890190F380EC18A589A43AFBDD8D0F0 /* YZTableViewAdapter-dummy.m */,
+				A73295E8E79FF23B646DC4B267171549 /* YZTableViewAdapter-prefix.pch */,
+				F29634EAAED52CC1F25CF2082410151D /* YZTableViewAdapter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YZTableViewAdapter";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		455CFFDC0D2634B635EDECF937037706 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32DF3470C1D6E845C0E7FBF7EAE74E3A /* YZTableViewAdapter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		615122905FB90E4D6B022095C99AE0BB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BED4C37529BBBEE2CEEC7AE32F1E4FBC /* LICENSE */,
+				82D6EE9318B027132DE18207A68AF7E3 /* README.md */,
+				E42C823EB683BE2273101967193C3AED /* YZTableViewAdapter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				455CFFDC0D2634B635EDECF937037706 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				172263B903EF34EC3CD9E7BDDE7180D9 /* Products */,
+				2D7C941F7918C89E8F575CE51B67C9B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B9E9106263AC672AF1B3A48732657C82 /* Pods-YZTableViewAdapter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B92C66701278FE465CF453475EF437F9 /* Info.plist */,
+				C076F8429B492E6F015EDB3C5E78E377 /* Pods-YZTableViewAdapter_Example.modulemap */,
+				CF1B9EC5E955BEE6A9BE8280E8ABBFDF /* Pods-YZTableViewAdapter_Example-acknowledgements.markdown */,
+				F87A93453BE0A7BFA3A4E100F48D9E76 /* Pods-YZTableViewAdapter_Example-acknowledgements.plist */,
+				5D855B020DDFC23B2911B0843D51F0B2 /* Pods-YZTableViewAdapter_Example-dummy.m */,
+				335B3A58722A3BFB319079F9F090A694 /* Pods-YZTableViewAdapter_Example-frameworks.sh */,
+				E763426FF422EEFF364BE2B52FD4A353 /* Pods-YZTableViewAdapter_Example-resources.sh */,
+				B6921EB47D5EADB0D968AD51BA2E7891 /* Pods-YZTableViewAdapter_Example-umbrella.h */,
+				FDE3F329DFF1AFDC0F506D50C6E58E82 /* Pods-YZTableViewAdapter_Example.debug.xcconfig */,
+				834139D893C814184524CCEFFD8BED3B /* Pods-YZTableViewAdapter_Example.release.xcconfig */,
+			);
+			name = "Pods-YZTableViewAdapter_Example";
+			path = "Target Support Files/Pods-YZTableViewAdapter_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D57B35F4142DCD6ACD20CCD67115B446 /* Pods-YZTableViewAdapter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				217E8C73509D1482E2EEB424A8077FDD /* Info.plist */,
+				E86C4417CAB9C88FA4167B56DB977331 /* Pods-YZTableViewAdapter_Tests.modulemap */,
+				CCF61EE784E959ECDD8A3CB88239CF29 /* Pods-YZTableViewAdapter_Tests-acknowledgements.markdown */,
+				8FDCAF5799D605FE3673A70436B722F0 /* Pods-YZTableViewAdapter_Tests-acknowledgements.plist */,
+				E3029A6AF35BA2E10D3A6F0D380AF2F5 /* Pods-YZTableViewAdapter_Tests-dummy.m */,
+				F1A4191F770A35A091687436C090995A /* Pods-YZTableViewAdapter_Tests-frameworks.sh */,
+				95625EF2E082143C70E7BC4489BECE92 /* Pods-YZTableViewAdapter_Tests-resources.sh */,
+				BC3F124D5D687759EB32F9B2A78DF183 /* Pods-YZTableViewAdapter_Tests-umbrella.h */,
+				AE760C95572D1371D647092178AE8514 /* Pods-YZTableViewAdapter_Tests.debug.xcconfig */,
+				AA2BD1E30C2E8656C3B6B3B28F11588C /* Pods-YZTableViewAdapter_Tests.release.xcconfig */,
+			);
+			name = "Pods-YZTableViewAdapter_Tests";
+			path = "Target Support Files/Pods-YZTableViewAdapter_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01C912DD465CF1187A41D27CFCAFAA6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B88045CE8A3D9A1AD261AEDD3A50E4 /* Pods-YZTableViewAdapter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FF59E454770CC1D7C06CAB201A90174 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BB1461DA8193D58B7FDA96986EA038 /* Pods-YZTableViewAdapter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A3B8085BA9ACE712D9CAC41243C1EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374797B12EA875C3FCA111B401B7E390 /* YZTableViewAdapter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33137032282E69D3C520D84A86D75F1D /* YZTableViewAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1DFA20AB0AAAB5EF797C330A3FADB1 /* Build configuration list for PBXNativeTarget "YZTableViewAdapter" */;
+			buildPhases = (
+				91A3B8085BA9ACE712D9CAC41243C1EC /* Headers */,
+				8890908584A60AE181AA1F7E36BBDFA1 /* Sources */,
+				D30340570C6815FDAE39192C1D451F4E /* Frameworks */,
+				4481A36F11A145B6E751498209FCCA73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZTableViewAdapter;
+			productName = YZTableViewAdapter;
+			productReference = E8BB33B2D97DDE74E9EB6CA8BBD80BBC /* YZTableViewAdapter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		955329FF06AFCBE0D9B74A28F35F74F8 /* Pods-YZTableViewAdapter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C2D6354E23F33E1E48E08B9E99A8DF1 /* Build configuration list for PBXNativeTarget "Pods-YZTableViewAdapter_Example" */;
+			buildPhases = (
+				01C912DD465CF1187A41D27CFCAFAA6F /* Headers */,
+				423A077335F91D42DFB2D3286801C73F /* Sources */,
+				1FE893771CE34CFEA2D8AFBB8DE0893E /* Frameworks */,
+				7C591BBFF9A5E6CA7236FBA9A9D09EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF97BCDD57F15E7DCB411320E2E82DC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-YZTableViewAdapter_Example";
+			productName = "Pods-YZTableViewAdapter_Example";
+			productReference = 50E239CB28B2BFB5A4E352DED987EAAF /* Pods_YZTableViewAdapter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B376F4ECBB7B4D7885478849FED9CA3C /* Pods-YZTableViewAdapter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 481FA5B65FDF773D11754D7D37097743 /* Build configuration list for PBXNativeTarget "Pods-YZTableViewAdapter_Tests" */;
+			buildPhases = (
+				0FF59E454770CC1D7C06CAB201A90174 /* Headers */,
+				533E37CBAABC8264C9508279A7BAB730 /* Sources */,
+				9908A147B0118217B17EE9AC6308BE21 /* Frameworks */,
+				7E0E97F3400600A0AD42CEE51EB0C343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8CB8F08E4B2BE90029F7881BBC9B30 /* PBXTargetDependency */,
+			);
+			name = "Pods-YZTableViewAdapter_Tests";
+			productName = "Pods-YZTableViewAdapter_Tests";
+			productReference = E9A738B5551FDBF5F8D59B64A46D5BA8 /* Pods_YZTableViewAdapter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 172263B903EF34EC3CD9E7BDDE7180D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				955329FF06AFCBE0D9B74A28F35F74F8 /* Pods-YZTableViewAdapter_Example */,
+				B376F4ECBB7B4D7885478849FED9CA3C /* Pods-YZTableViewAdapter_Tests */,
+				33137032282E69D3C520D84A86D75F1D /* YZTableViewAdapter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4481A36F11A145B6E751498209FCCA73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C591BBFF9A5E6CA7236FBA9A9D09EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0E97F3400600A0AD42CEE51EB0C343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		423A077335F91D42DFB2D3286801C73F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5D1BADFE7595D12C6D82739B945DE6 /* Pods-YZTableViewAdapter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533E37CBAABC8264C9508279A7BAB730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906B59C8AF8B40CB8822D82450C7D29C /* Pods-YZTableViewAdapter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8890908584A60AE181AA1F7E36BBDFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463CA7850A252DEE47AAB0ED43443039 /* BaseProxy.swift in Sources */,
+				FDF9BFB3FF105D3CE96125FC890D3429 /* TableViewAdapter.swift in Sources */,
+				E91EDDC37E6512A26CBF892F59435493 /* TableViewCellDataReceiver.swift in Sources */,
+				79B47EF77D49940880F4745F5E634028 /* TableViewCellProvider.swift in Sources */,
+				660A6C04DC08B5C2FE003B42F360E348 /* TableViewDataSourceProxy.swift in Sources */,
+				E23DB79FF36F2BE7E9B1B915F9CC6EE5 /* TableViewDelegateProxy.swift in Sources */,
+				BDF7ED9173153529F2163DEFE18688F2 /* YZTableViewAdapter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE8CB8F08E4B2BE90029F7881BBC9B30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YZTableViewAdapter_Example";
+			target = 955329FF06AFCBE0D9B74A28F35F74F8 /* Pods-YZTableViewAdapter_Example */;
+			targetProxy = 4C8810EAF8941313C348EC7E44EDAE1E /* PBXContainerItemProxy */;
+		};
+		CF97BCDD57F15E7DCB411320E2E82DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YZTableViewAdapter;
+			target = 33137032282E69D3C520D84A86D75F1D /* YZTableViewAdapter */;
+			targetProxy = 461364DC443355CBE30C01920756D206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		703035FA0AE4C0D5A52BB20F991849C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE760C95572D1371D647092178AE8514 /* Pods-YZTableViewAdapter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YZTableViewAdapter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YZTableViewAdapter_Tests/Pods-YZTableViewAdapter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92C3B10F2EB77009BC75DCCA2F3B33C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE3F329DFF1AFDC0F506D50C6E58E82 /* Pods-YZTableViewAdapter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YZTableViewAdapter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YZTableViewAdapter_Example/Pods-YZTableViewAdapter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8A08A60A5353357B2F969DF24086255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F83FF96A7F5A01BFC0119718A5695E /* YZTableViewAdapter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YZTableViewAdapter/YZTableViewAdapter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YZTableViewAdapter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YZTableViewAdapter/YZTableViewAdapter.modulemap";
+				PRODUCT_MODULE_NAME = YZTableViewAdapter;
+				PRODUCT_NAME = YZTableViewAdapter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0FA41FEE3DDEB2AAF101AAD7CC8A20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 834139D893C814184524CCEFFD8BED3B /* Pods-YZTableViewAdapter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YZTableViewAdapter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YZTableViewAdapter_Example/Pods-YZTableViewAdapter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E25BBD185B743D14797F41E58F634894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2BD1E30C2E8656C3B6B3B28F11588C /* Pods-YZTableViewAdapter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YZTableViewAdapter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YZTableViewAdapter_Tests/Pods-YZTableViewAdapter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA2A53F2DA71CE41F63112DF28581B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F83FF96A7F5A01BFC0119718A5695E /* YZTableViewAdapter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YZTableViewAdapter/YZTableViewAdapter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YZTableViewAdapter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YZTableViewAdapter/YZTableViewAdapter.modulemap";
+				PRODUCT_MODULE_NAME = YZTableViewAdapter;
+				PRODUCT_NAME = YZTableViewAdapter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50646285DD9FD95AF390BDA3FB1948EA /* Debug */,
+				58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		481FA5B65FDF773D11754D7D37097743 /* Build configuration list for PBXNativeTarget "Pods-YZTableViewAdapter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703035FA0AE4C0D5A52BB20F991849C5 /* Debug */,
+				E25BBD185B743D14797F41E58F634894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C2D6354E23F33E1E48E08B9E99A8DF1 /* Build configuration list for PBXNativeTarget "Pods-YZTableViewAdapter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C3B10F2EB77009BC75DCCA2F3B33C8 /* Debug */,
+				B0FA41FEE3DDEB2AAF101AAD7CC8A20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B1DFA20AB0AAAB5EF797C330A3FADB1 /* Build configuration list for PBXNativeTarget "YZTableViewAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A08A60A5353357B2F969DF24086255 /* Debug */,
+				EA2A53F2DA71CE41F63112DF28581B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

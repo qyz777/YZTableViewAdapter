@@ -1,0 +1,16 @@
+PODS:
+  - YZTableViewAdapter (0.1.0)
+
+DEPENDENCIES:
+  - YZTableViewAdapter (from `../`)
+
+EXTERNAL SOURCES:
+  YZTableViewAdapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YZTableViewAdapter: dd4ed28a38d88fcc670fe2510917867f75348073
+
+PODFILE CHECKSUM: 8c98fdac5f1456b065416983be97f64516018a66
+
+COCOAPODS: 1.5.3

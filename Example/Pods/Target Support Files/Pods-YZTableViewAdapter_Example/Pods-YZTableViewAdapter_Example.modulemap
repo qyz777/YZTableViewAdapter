@@ -1,0 +1,6 @@
+framework module Pods_YZTableViewAdapter_Example {
+  umbrella header "Pods-YZTableViewAdapter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module YZTableViewAdapter {
+  umbrella header "YZTableViewAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
