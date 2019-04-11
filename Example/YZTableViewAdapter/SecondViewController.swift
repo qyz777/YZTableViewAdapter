@@ -20,12 +20,13 @@ class SecondViewController: UIViewController {
         
         adapter = TableViewAdapter.init(with: tableView)
         
+        let model = InfoModel()
         var dataArray: [[TableViewCellProvider]] = []
         var d1: [TableViewCellProvider] = []
         var d2: [TableViewCellProvider] = []
         for i in 0..<30 {
             if i < 15 {
-                let p = FirstCellProvider()
+                let p = FirstCellProvider.init(with: model)
                 p.color = .lightGray
                 d1.append(p)
             } else {

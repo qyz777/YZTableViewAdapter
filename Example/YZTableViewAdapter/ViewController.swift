@@ -25,10 +25,11 @@ class ViewController: UIViewController {
 //        DataSource也一样
 //        adapter?.tableViewDataSource = self
         
+        let model = InfoModel()
         var dataArray: [TableViewCellProvider] = []
         for i in 0..<30 {
             if i % 2 == 0 {
-                let p = FirstCellProvider()
+                let p = FirstCellProvider.init(with: model)
                 p.color = .lightGray
                 dataArray.append(p)
             } else {

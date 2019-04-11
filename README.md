@@ -22,7 +22,7 @@ pod 'YZTableViewAdapter'
 
 ## Author
 
-qyz777, qiyizhong@corp.netease.com
+qyz777, qyizhong1998@gmail.com
 
 ## License
 
