@@ -35,7 +35,7 @@ public class TableViewAdapter: NSObject {
     /// 使用Section需要的dataSource
     public var sectionCellModelArray: [[TableViewCellProvider]] = []
     
-    /// 不使用需要的dataSource
+    /// 不使用Section需要的dataSource
     public var cellModelArray: [TableViewCellProvider] = []
     
     public weak var adapterDelegate: TableViewAdapterDelegate?
