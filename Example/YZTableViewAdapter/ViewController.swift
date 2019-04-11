@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         
         adapter = TableViewAdapter.init(with: tableView)
         
+//        如果你需要使用其他tableView的Delegate你需要这么写
+        adapter?.tableViewDelegate = self
+//        DataSource也一样
+//        adapter?.tableViewDataSource = self
+        
         var dataArray: [TableViewCellProvider] = []
         for i in 0..<30 {
             if i % 2 == 0 {
@@ -49,3 +54,14 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(indexPath.row)
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        print(scrollView.contentOffset)
+    }
+    
+}
