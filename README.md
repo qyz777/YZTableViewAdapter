@@ -7,7 +7,7 @@
 
 ## Introduction
 
-YZTableViewAdapter是一个用来快速组装多种Cell的工具
+YZTableViewAdapter是一个用来快速组装多种Cell的轻量级工具
 
 ## Example
 
