@@ -31,8 +31,6 @@ YZTableViewAdapter uses adapter to manage various TableViewCells. You just need 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'YZTableViewAdapter/Classes/**/*'
-
-  s.swift_version = '4.0'
   
   # s.resource_bundles = {
   #   'YZTableViewAdapter' => ['YZTableViewAdapter/Assets/*.png']
